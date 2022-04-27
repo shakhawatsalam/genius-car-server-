@@ -25,7 +25,7 @@ function verifyJWT(req, res, next) {
         req.decoded = decoded;
         next();
     })
-   
+    
 }
 
 //dbuser1
